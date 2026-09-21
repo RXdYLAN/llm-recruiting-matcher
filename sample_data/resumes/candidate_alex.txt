@@ -1,0 +1,10 @@
+Alex Rivera
+Senior Technical Recruiter, Series B fintech startup
+
+4 years of full-cycle recruiting, entirely focused on engineering and data
+roles (backend, ML, platform). Personally sourced and closed 60+
+engineers. Daily user of Gem for AI-assisted sourcing; built a Python
+script last year to auto-tag resumes by tech stack.
+
+Comfortable speaking to candidates about system design and ML pipelines
+after years of partnering closely with engineering hiring managers.

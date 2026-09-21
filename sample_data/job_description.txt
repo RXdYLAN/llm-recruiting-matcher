@@ -1,0 +1,13 @@
+Job Title: Technical Recruiter, AI Talent
+
+We're hiring a Technical Recruiter to own full-cycle recruiting for our AI/ML
+engineering team. You'll source candidates using tools like Gem and
+LinkedIn Recruiter, screen for technical fit, and partner closely with
+hiring managers.
+
+Requirements:
+- 2+ years full-cycle recruiting experience, ideally in tech
+- Experience sourcing for technical roles (engineering, data science, or ML)
+- Strong communication skills and a track record of closing candidates
+- Familiarity with AI-assisted sourcing tools (Gem, Juicebox, or similar)
+- Bonus: hands-on experience building or using AI/LLM tools yourself
