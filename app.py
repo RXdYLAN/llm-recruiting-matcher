@@ -38,6 +38,20 @@ from match import evaluate_fit, MatchResult
 # --- Page setup ------------------------------------------------------------
 load_dotenv(override=True)
 
+# On Streamlit Community Cloud, there's no .env file — instead, secrets are
+# entered into a "Secrets" panel in the app's settings and reach the app
+# through st.secrets. This falls back to that if the key wasn't already
+# found via .env (i.e. picks whichever source is actually available,
+# local .env or cloud secrets, without needing two different code paths).
+try:
+    if not os.environ.get("ANTHROPIC_API_KEY") and "ANTHROPIC_API_KEY" in st.secrets:
+        os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
+except Exception:
+    # st.secrets raises if no secrets are configured at all (e.g. running
+    # locally with only a .env file and no secrets.toml) — that's fine,
+    # it just means we rely on the .env value instead.
+    pass
+
 st.set_page_config(page_title="AI Resume Matcher", page_icon="🧑‍💼")
 st.title("AI Resume ↔ Job Matcher")
 st.write(
